@@ -1,0 +1,123 @@
+{
+    "utilisateurs": {
+        "nicolas.ferret": {
+            "id": "654e7f5c-b9f0-478b-966a-0d1e72429224",
+            "motDePasse": "coucou",
+            "type": "formateur",
+            "classes": ["B1","B2","B3DEV", "M1DFS", "M2DFS"]
+        },
+        "nolann.parcheminer": {
+            "id": "fa43a816-4f65-4fa6-a477-87068986f6b1",
+            "classe": "M1DFS",
+            "type": "etudiant",
+            "motDePasse": "coucou"
+        },
+        "kylian.le-marois": {
+            "id": "06872f9a-8750-442f-9acb-affbd7105783",
+            "classe": "M1DFS",
+            "type": "etudiant",
+            "motDePasse": "coucou"
+        }
+    },
+    "questions": [
+        {
+            "id": "497dcba3-ecbf-4587-a2dd-5eb0665e6880",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Quelle est l'extension de fichier standard pour un fichier TypeScript",
+            "reponses": [
+                { "libelle": ".tsc", "valide": false },
+                { "libelle": ".js", "valide": false },
+                { "libelle": ".ts", "valide": true },
+                { "libelle": ".tsx", "valide": false }
+            ]
+        },
+        {
+            "id": "50e14f43-dd4e-412f-864d-78943ea28d91",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Quel est le rôle principal de Typescript par rapport à Javascript ?",
+            "reponses": [
+                { "libelle": "Ajouter des animations", "valide": false },
+                { "libelle": "Ajouter des typages statiques", "valide": true},
+                { "libelle": "Accélérer l'éxécution du code", "valide": false},
+                { "libelle": "Remplacer HTML", "valide": false }
+            ]
+        },
+        {
+            "id": "7edb3b2e-869c-485b-af70-76a934e0fcfd",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Quel mot clé permet de déclarer un type personnalisé ?",
+            "reponses": [
+                { "libelle": "class", "valide": false },
+                { "libelle": "type", "valide": true},
+                { "libelle": "define", "valide": false},
+                { "libelle": "interface", "valide": true}
+            ]
+        },
+        {
+            "id": "6b72e68d-e596-4e11-a190-bedbded40cc2",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Quel est le type de retour d'une fonction qui ne retourne rien ?",
+            "reponses": [
+                { "libelle": "null", "valide": false },
+                { "libelle": "undefined", "valide": false },
+                { "libelle": "never", "valide": false },
+                { "libelle": "void", "valide": true}
+            ]
+        },
+        {
+            "id": "c3ded425-52b6-4202-8edb-4d240a601915",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Laquelle de ces syntaxes permet de dire qu’un paramètre est optionnel ?",
+            "reponses": [
+                { "libelle": "function greet(name?: string)", "valide": true },
+                { "libelle": "function greet(?name: string)", "valide": false },
+                { "libelle": "function greet(string name?)", "valide": false },
+                { "libelle": "function greet(name: string?)", "valide": false}
+            ]
+        },
+        {
+            "id": "020177d5-9576-459f-84a8-311a6dbcb16d",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": " Que permet le mot-clé readonly dans TypeScript ?",
+            "reponses": [
+                { "libelle": "Rendre la fonction non modifiable", "valide": false },
+                { "libelle": "Interdire la modification d'une propriété après initialisation", "valide": true },
+                { "libelle": "Empêcher une variable d'être redéclarée", "valide": false },
+                { "libelle": "Créer une constance globale", "valide": false}
+            ]
+        },
+        {
+            "id": "cbc006f7-c943-4322-9800-d430867d213a",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Quelle est la différence entre <i>any</i> et <i>unknown</i>",
+            "reponses": [
+                { "libelle": "<i>any</i> est plus sûr que <i>unknow</i>", "valide": false },
+                { "libelle": "Aucune, ce sont des synonymes", "valide": false},
+                { "libelle": "<i>any</i> empêche la compilation", "valide": false},
+                { "libelle": "<i>unknow</i> nécessite une vérification de type avant usage", "valide": true}
+            ]
+        },
+        {
+            "id": "10e6e7f4-20bf-4570-82ee-dfe6a3cf04d8",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Que signifie l'opérateur <i>!</i> après un nom de variable ?",
+            "reponses": [
+                { "libelle": "Négation logique", "valide": false },
+                { "libelle": "Déclaration de variable obligatoire", "valide": false},
+                { "libelle": "Assertion de non-nullité", "valide": true},
+                { "libelle": "Interdiction de redéclaration", "valide": false}
+            ]
+        },
+        {
+            "id": "64a06a46-f914-4c65-b2cc-8f43b0429fd8",
+            "classes": ["B3DEV", "M1DFS", "M2DFS"],
+            "question": "Que retourne cette fonction : <i>const test(): never => throw new Error(\"Erreur\");</i>",
+            "reponses": [
+                { "libelle": "Une chaîne", "valide": false },
+                { "libelle": "<i>undefined</i>", "valide": false},
+                { "libelle": "<i>null</i>", "valide": false},
+                { "libelle": "La fonction ne retourne jamais", "valide": true}
+            ]
+        }
+    ]
+}
