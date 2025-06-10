@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "editor.selectionBackground": "#3D59A1",
+            "editor.selectionHighlightBackground": "#3D59A1"
+        },
+        "activityBar.background": "#1C3400",
+        "titleBar.activeBackground": "#284801",
+        "titleBar.activeForeground": "#F0FFDF"
+    }
+}
